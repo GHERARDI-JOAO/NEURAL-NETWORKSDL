@@ -1,7 +1,3 @@
-Aqui está o README atualizado com o link do Kaggle:
-
----
-
 # Atividade Prática - Redes Neurais para Classificação de Imagens
 
 Este projeto implementa uma rede neural para classificar imagens de gatos e cachorros, utilizando o dataset disponível no Kaggle. O objetivo é desenvolver um modelo de classificação binária que possa diferenciar entre imagens de gatos e cães com base nas características visuais.
