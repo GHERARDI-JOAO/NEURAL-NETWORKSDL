@@ -1,14 +1,37 @@
-# Redes Neurais, Deep Learning e Machine Learning
+# Atividade Prática - Redes Neurais para Diagnóstico de Diabetes
 
-Este repositório reúne materiais, conceitos fundamentais e projetos focados em **Redes Neurais Artificiais**, **Deep Learning** e **Machine Learning**, e também apresenta projetos desenvolvidos no curso [*Introdução às Redes Neurais e Deep Learning*](https://sites.google.com/ufla.br/denilsonpereira/home/courses/deep-learning/redes-neurais-e-deep-learning?authuser=0).
+Este projeto implementa uma rede neural simples para prever a presença de diabetes em pacientes, usando o _dataset_ Pima Indians Diabetes Database. O objetivo é desenvolver um modelo de classificação binária que possa diferenciar entre pacientes com e sem diabetes com base em atributos de saúde.
 
-## Conteúdos
+## Estrutura do Projeto
 
-- **Fundamentos de Redes Neurais**: Conceitos iniciais de redes neurais artificiais, introdução ao Perceptron e ao Multilayer Perceptron.
-- **Deep Learning e Modelos Avançados**: Estrutura e funcionamento de redes profundas e aprendizado supervisionado.
-- **Treinamento de Modelos**: Implementação de descida do gradiente e backpropagation para ajuste dos pesos da rede.
-- **Aplicações Práticas em Python e Keras**: Desenvolvimento de modelos de classificação, introdução ao framework Keras e projetos para tarefas de classificação de imagens e reconhecimento de padrões.
+### 1. Pré-processamento dos Dados
 
-## Objetivo
+- Leitura do _dataset_ e separação das características e rótulos.
+- Divisão em conjuntos de treino e teste.
+- Padronização das variáveis de entrada para melhor desempenho do modelo.
 
-Fornecer uma base sólida em redes neurais e deep learning, capacitando o usuário a criar e treinar modelos para resolver problemas em **Machine Learning** e **Inteligência Artificial**.
+### 2. Configuração do Modelo
+
+- Modelo com três camadas ocultas e uma camada de saída para classificação binária.
+- Funções de ativação: `Tanh` nas camadas ocultas e `Sigmoid` na saída.
+
+### 3. Compilação e Treinamento
+
+- Função de perda: `mean_absolute_error`.
+- Otimizador: `RMSprop`.
+- Métricas de avaliação: Acurácia, Precisão e Recall.
+- Treinamento realizado com 1000 épocas e tamanho de lote de 64.
+
+### 4. Avaliação do Modelo
+
+- O modelo é avaliado em precisão e recall para determinar sua eficácia em prever corretamente a presença de diabetes.
+
+### Ferramentas Utilizadas
+
+- **Python** com **TensorFlow** e **Keras** para modelagem.
+- **Scikit-Learn** para pré-processamento dos dados.
+- **Pandas** para manipulação do _dataset_.
+
+## Referência do Dataset
+
+[Pima Indians Diabetes Database no Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
