@@ -30,7 +30,7 @@ O modelo é treinado utilizando um dataset disponível no Kaggle, que contém mi
 
 O treinamento e a validação do modelo são realizados utilizando técnicas de machine learning, com o intuito de maximizar a precisão e a eficácia da classificação. Ao final, o projeto proporciona uma interface amigável para os usuários, permitindo a entrada de novas imagens e a obtenção de resultados em tempo real.
 
-Você pode acessar o projeto de Classificação de Imagens de Gatos e Cachorros [aqui](https://www.kaggle.com/c/dogs-vs-cats/data) para explorar o código e os detalhes de implementação. Este projeto é uma excelente oportunidade para entender como aplicar conceitos teóricos em um problema prático, além de ser um exemplo da utilidade das redes neurais em aplicações do mundo real.
+Você pode acessar o projeto de Classificação de Imagens de Gatos e Cachorros [aqui](https://github.com/GHERARDI-JOAO/NEURAL-NETWORKSDL/tree/main/Classifica%C3%A7%C3%A3o%20de%20Imagens) para explorar o código e os detalhes de implementação. Este projeto é uma excelente oportunidade para entender como aplicar conceitos teóricos em um problema prático, além de ser um exemplo da utilidade das redes neurais em aplicações do mundo real.
 
 ## Objetivo
 
