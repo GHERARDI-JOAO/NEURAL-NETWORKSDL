@@ -2,7 +2,7 @@
 
 Este repositório reúne materiais, conceitos fundamentais e projetos focados em **Redes Neurais Artificiais**, **Deep Learning** e **Machine Learning**. Também apresenta projetos desenvolvidos no curso [*Introdução às Redes Neurais e Deep Learning*](https://sites.google.com/ufla.br/denilsonpereira/home/courses/deep-learning/redes-neurais-e-deep-learning?authuser=0), oferecendo uma oportunidade prática de aplicar os conhecimentos adquiridos.
 
-## Conteúdos
+# Conteúdos
 
 - **Fundamentos de Redes Neurais**: Aqui, você encontrará os conceitos iniciais de redes neurais artificiais, incluindo a introdução ao Perceptron e ao Multilayer Perceptron. Esses fundamentos são essenciais para entender como as redes neurais processam informações e como são capazes de aprender com dados.
 
@@ -12,7 +12,7 @@ Este repositório reúne materiais, conceitos fundamentais e projetos focados em
 
 - **Aplicações Práticas em Python e Keras**: Esta seção inclui o desenvolvimento de modelos de classificação, com uma introdução ao framework Keras, que facilita a construção e o treinamento de redes neurais. Os projetos apresentados abrangem tarefas de classificação de imagens e reconhecimento de padrões, ilustrando como aplicar técnicas de deep learning em cenários do mundo real.
 
-## Projeto: Diagnóstico de Diabetes
+# Projeto 01: Diagnóstico de Diabetes
 
 Um dos projetos desenvolvidos neste repositório é o de **Diagnóstico de Diabetes**, que utiliza uma rede neural para prever a presença de diabetes em pacientes. Este projeto é de grande relevância, pois a detecção precoce da diabetes pode levar a intervenções eficazes e à melhoria da qualidade de vida dos pacientes.
 
@@ -21,6 +21,16 @@ O modelo é treinado utilizando o *dataset* Pima Indians Diabetes Database, que 
 O treinamento e a validação do modelo são realizados utilizando técnicas de machine learning, com o intuito de maximizar a precisão e a eficácia do diagnóstico. Ao final, o projeto proporciona uma interface amigável para os usuários, permitindo a entrada de dados dos pacientes e a obtenção de resultados em tempo real.
 
 Você pode acessar o projeto de Diagnóstico de Diabetes [aqui](https://github.com/GHERARDI-JOAO/NEURAL-NETWORKSDL/tree/main/Diagn%C3%B3stico%20de%20Diabetes) para explorar o código e os detalhes de implementação. Este projeto é uma excelente oportunidade para entender como aplicar conceitos teóricos em um problema prático, além de ser um exemplo da utilidade das redes neurais na área da saúde.
+
+# Projeto 02: Classificação de Imagens de Gatos e Cachorros
+
+Um dos projetos desenvolvidos neste repositório é o de Classificação de Imagens de Gatos e Cachorros, que utiliza uma rede neural para distinguir entre imagens de gatos e cães. Este projeto é de grande relevância, pois a automação da identificação de animais pode ter aplicações significativas em diversas áreas, incluindo bem-estar animal e sistemas de adoção.
+
+O modelo é treinado utilizando um dataset disponível no Kaggle, que contém milhares de imagens rotuladas de gatos e cachorros. O objetivo do projeto é classificar as imagens em duas categorias: gatos e cães, baseando-se em suas características visuais.
+
+O treinamento e a validação do modelo são realizados utilizando técnicas de machine learning, com o intuito de maximizar a precisão e a eficácia da classificação. Ao final, o projeto proporciona uma interface amigável para os usuários, permitindo a entrada de novas imagens e a obtenção de resultados em tempo real.
+
+Você pode acessar o projeto de Classificação de Imagens de Gatos e Cachorros [aqui](https://www.kaggle.com/c/dogs-vs-cats/data) para explorar o código e os detalhes de implementação. Este projeto é uma excelente oportunidade para entender como aplicar conceitos teóricos em um problema prático, além de ser um exemplo da utilidade das redes neurais em aplicações do mundo real.
 
 ## Objetivo
 
