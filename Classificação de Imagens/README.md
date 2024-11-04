@@ -33,6 +33,6 @@ Este projeto implementa uma rede neural para classificar imagens de gatos e cach
 
 ## Referência do Dataset
 
-Dataset de imagens de gatos e cachorros disponível no Kaggle: [Kaggle Cats and Dogs Dataset](https://www.kaggle.com/c/dogs-vs-cats/data).
+Dataset de imagens de gatos e cachorros disponível no Kaggle: [Kaggle Cats and Dogs Dataset](https://www.kaggle.com/datasets/d4rklucif3r/cat-and-dogs).
 
 ---
