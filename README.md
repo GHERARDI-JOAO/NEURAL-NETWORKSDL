@@ -24,13 +24,21 @@ Você pode acessar o projeto de Diagnóstico de Diabetes [aqui](https://github.c
 
 # Projeto 02: Classificação de Imagens de Gatos e Cachorros
 
-Um dos projetos desenvolvidos neste repositório é o de Classificação de Imagens de Gatos e Cachorros, que utiliza uma rede neural para distinguir entre imagens de gatos e cães. Este projeto é de grande relevância, pois a automação da identificação de animais pode ter aplicações significativas em diversas áreas, incluindo bem-estar animal e sistemas de adoção.
+Um dos projetos desenvolvidos neste repositório é o de **Classificação de Imagens de Gatos e Cachorros**, que utiliza uma rede neural para distinguir entre imagens de gatos e cães. Este projeto é de grande relevância, pois a automação da identificação de animais pode ter aplicações significativas em diversas áreas, incluindo bem-estar animal e sistemas de adoção.
 
 O modelo é treinado utilizando um dataset disponível no Kaggle, que contém milhares de imagens rotuladas de gatos e cachorros. O objetivo do projeto é classificar as imagens em duas categorias: gatos e cães, baseando-se em suas características visuais.
 
 O treinamento e a validação do modelo são realizados utilizando técnicas de machine learning, com o intuito de maximizar a precisão e a eficácia da classificação. Ao final, o projeto proporciona uma interface amigável para os usuários, permitindo a entrada de novas imagens e a obtenção de resultados em tempo real.
 
 Você pode acessar o projeto de Classificação de Imagens de Gatos e Cachorros [aqui](https://github.com/GHERARDI-JOAO/NEURAL-NETWORKSDL/tree/main/Classifica%C3%A7%C3%A3o%20de%20Imagens) para explorar o código e os detalhes de implementação. Este projeto é uma excelente oportunidade para entender como aplicar conceitos teóricos em um problema prático, além de ser um exemplo da utilidade das redes neurais em aplicações do mundo real.
+
+# Projeto 03: Classificação do Desempenho Acadêmico de Alunos
+
+Este projeto utiliza uma rede neural para **classificar o desempenho acadêmico dos alunos** em três categorias, com base em uma série de fatores educacionais. O modelo foi treinado utilizando um dataset público do Kaggle, que contém informações sobre fatores que impactam o desempenho dos alunos, como **horas de estudo, presença nas aulas, envolvimento dos pais, qualidade dos professores, entre outros**.
+
+Após realizar o pré-processamento e normalização dos dados, além de converter variáveis categóricas, uma rede neural foi configurada e treinada, utilizando camadas ocultas otimizadas e técnicas de regularização para evitar overfitting. O modelo obteve uma **acurácia de 92,08%**, demonstrando sua eficácia em prever o desempenho dos alunos.
+
+Esse projeto é uma excelente oportunidade para aplicar conceitos de deep learning em um contexto educacional, utilizando fatores diversos para prever o desempenho. Você pode acessar o projeto de Classificação do Desempenho Acadêmico [aqui](https://github.com/GHERARDI-JOAO/NEURAL-NETWORKSDL/tree/main/Previs%C3%A3o%20Acad%C3%AAmica) para explorar o código e os detalhes de implementação.
 
 ## Objetivo
 
